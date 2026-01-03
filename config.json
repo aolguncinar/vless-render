@@ -1,0 +1,18 @@
+{
+  "inbounds": [{
+    "port": 10000,
+    "protocol": "vless",
+    "settings": {
+      "clients": [{"id": "b831346d-3759-4672-9653-e38018e6c70b"}],
+      "decryption": "none"
+    },
+    "streamSettings": {
+      "network": "ws",
+      "wsSettings": {
+        "path": "/whatsapp",
+        "headers": { "Host": "c.whatsapp.net" }
+      }
+    }
+  }],
+  "outbounds": [{"protocol": "freedom"}]
+}
